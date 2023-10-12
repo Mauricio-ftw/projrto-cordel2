@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding: 0;
+}
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+    height: 200px;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin-top: 180px;
+}
+#estrofe02{
+    color: white;
+    background-color: black;
+    width: 200px;
+}
+#estrofe05{
+    color: white;
+    background-color: black;
+    width: 200px;
+}
+footer{
+    color: white;
+    background-color: black;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
