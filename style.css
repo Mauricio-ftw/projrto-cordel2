@@ -1,33 +1,84 @@
 body{
     margin:0;
     padding: 0;
+    min-height: 100vh
+    
+    
 }
-header{
-    color: white;
-    background-color: black;
-    text-align: center;
-    padding: 1px;
-    height: 200px;
 
+header{ 
+        font-size: 60px;
+        font-family: 'Passion One',sans-serif;    
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 1px;
+        height: 20vw;
+        font-weight: normal;
+        
+}
+header h1{
+    letter-spacing: 8px;
+    margin-top: 20px;
+    display: block;
+    
 }
 header a{
-    color: white;
-    text-decoration: none;
-    margin-top: 180px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
 }
+header p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: -70px;
+}
+a:hover  {
+    
+    color: rgba(12, 12, 252, 0.25);
+}
+main{
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: 'Sriracha', cursive;
+    font-weight: normal;
+}
+.container02{
+   background-image: url("imagens/background001.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding: 10px;
+   margin-left: -20px;
+    }
+
 #estrofe02{
-    color: white;
-    background-color: black;
-    width: 200px;
+    width: max-content;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.396);
+   
+}
+
+.container05{
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding: 10px;
+   margin-left: -20px;
+  
+    background-image: url("imagens/background002.jpg");
 }
 #estrofe05{
+    width: max-content;
     color: white;
-    background-color: black;
-    width: 200px;
+    background-color: rgba(0, 0, 0, 0.396);
+    
 }
 footer{
     color: white;
     background-color: black;
+    text-align: center;
+    padding: 10px;
 }
 footer a{
     color: white;
